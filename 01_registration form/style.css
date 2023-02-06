@@ -1,0 +1,53 @@
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  td {
+    padding: 8px;
+    border: 1px solid gray;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 4px;
+  }
+
+  fieldset {
+    border: 1px solid gray;
+    padding: 8px;
+    margin: 16px 0;
+    border-radius: 4px;
+  }
+
+  legend {
+    font-weight: bold;
+    padding: 0 8px;
+  }
+
+  input[type="submit"],
+  input[type="reset"] {
+    padding: 8px 16px;
+    background-color: lightblue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: blue;
+  }
+
+
+ 
